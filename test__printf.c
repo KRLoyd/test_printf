@@ -1,3 +1,5 @@
+#inlcude "holberton.h"
+
 /**
  * main - custom main file to test for my _printf()
  * Return: Always 0
@@ -22,5 +24,5 @@ int main(void)
 	_printf("Len :[%d]\n", len);
 
 	return (0);
-// (EXPECTED for test case %y) warning: unknown conversion type character ‘y’ in format
+/* (EXPECTED for test case %y) warning: unknown conversion type character ‘y’ in format */
 }
